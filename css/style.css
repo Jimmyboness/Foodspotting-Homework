@@ -1,0 +1,100 @@
+body {
+    font-family: helvetica;
+    font-size: 12px;
+    background-image: url("/images/bg.png");
+}
+a {
+    text-decoration: none;
+    float: right;
+    margin-left: 15px;
+}
+span {
+    display: block;
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 3rem;
+}
+.body-container {
+    width: 80%;
+    background: white;
+    margin: auto;
+}
+.photo-container {
+    margin: auto;
+    /*width: 80%;*/
+    background: white;
+    font-size: 0;
+}
+.body-container img {
+    width: 45%;
+    display: inline-block;
+    margin: 2.5%;
+}
+.description {
+    background: white;
+    /*width: 80%;*/
+    margin: auto;
+    padding: 2.5%;
+    margin-top: 5%;
+    /*text-align: center;*/
+}
+.description img {
+    float: right;
+}
+.the-end {
+background: url("/images/greenbow.png") repeat-x scroll 0 0 #242425;
+color: #b3b3b3;
+margin-top: 160px;
+padding-top: 15px;
+padding: 10px;
+}
+.the-end p {
+    font-size: 8px;
+}
+
+footer {
+    background-color: #474747;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+ header {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+ }
+
+ h1 {
+
+    width: 80%;
+    margin: auto;
+ }
+section p {
+    margin: auto;
+    width: 80%;
+}
+
+    .container {
+        font-size: 0;
+    }
+
+    .photo-2x3
+    {
+        font-size: 0;
+        width: 50%;
+        display: inline-block;
+    }
+}
+
+.social {
+    float: right;
+    margin-top: 30px;
+}
+
+
+
+
+
